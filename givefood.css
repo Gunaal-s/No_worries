@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Black+Ops+One&family=Caveat:wght@400..700&family=Comic+Relief:wght@400;700&family=Nova+Round&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: beige;
+}
+
+.logo img {
+    border-radius: 50px;
+    height: 50px;
+
+}
+
+.logoname {
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    h3 {
+        font-family: "Black Ops One",
+            system-ui;
+        font-weight: lighter;
+        margin-top: 13px;
+    }
+
+    span {
+        color: rgb(52, 239, 5);
+
+    }
+
+}
+
+.logolist {
+    padding: 25px;
+    display: flex;
+}
+
+.navlist ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.navlist ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.navlist ul li {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.navlist ul li a:hover {
+    color: rgb(173, 237, 173);
+
+}
+
+.give button {
+    background-image: radial-gradient(circle at left, darkgreen, rgb(4, 181, 4));
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+}
+
+.give button:hover {
+    color: green;
+    background-image: radial-gradient(circle at left, white);
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    z-index: 1;
+}
+
+.inputbox {
+    height: 600px;
+    width: 700px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    box-shadow: rgba(172, 255, 47, 0.349) 0 0 200px;
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.givefood{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+p{
+        opacity: 60%;
+        font-family: "Roboto", sans-serif;
+}
+h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    opacity: 60%;
+    width: 200px;
+}
+.hp{
+    padding: 35px;
+}
+input[type="text"] {
+ padding: 17px;
+ width: 260px;
+ border-radius: 10px;
+ border: solid 1px rgb(105, 104, 104);
+}
+.catagiries{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+input[type="datetime-local"] {
+ padding: 17px;
+ width: 260px;
+ border-radius: 10px;
+ border: solid 1px rgb(105, 104, 104);
+ display: flex;
+ float: right;
+ margin-bottom: 30px
+}
+select{
+    padding: 17px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+.boundry{
+    padding: 25px;
+}
+input[type="text"]{
+    padding: 20px;
+}
+input[type="submit"]{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-image: radial-gradient(circle at left,green,black);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boundry{
+    display: flex;
+
+    
+}
+.submit{
+    margin-left: 20px;
+    margin-top: 32px;
+}
